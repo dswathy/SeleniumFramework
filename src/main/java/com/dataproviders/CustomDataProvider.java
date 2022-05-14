@@ -5,13 +5,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Objects;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.testng.IDataProviderMethod;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.IDataProviderAnnotation;
-
 import com.enums.ExcelColumnConstants;
 import com.enums.ExcelSheetNames;
 import com.utils.ExcelUtils;
@@ -19,15 +15,12 @@ import com.utils.ExcelUtils;
 /**
  * This class is used to pass test data for each test case. As per present implementation this only takes data from 
  * only one sheet i.e Login Test. Need to provide implementation based on sheet name from test class.
- * @author Ashtesh Divakar
+ * @author nsridhar
  *
  */
 // Final class so that no inheritance allowed for this class
 public final class CustomDataProvider {
-	
-	// Private constructor so that no refernce to class methods using object
-	//private CustomDataProvider() {}
-	
+
 	private static Logger log = LogManager.getLogger();
 	
 	@DataProvider

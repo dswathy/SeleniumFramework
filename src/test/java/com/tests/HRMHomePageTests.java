@@ -1,9 +1,7 @@
 package com.tests;
 
 import java.util.HashMap;
-
 import org.testng.annotations.Test;
-
 import com.dataproviders.CustomDataProvider;
 import com.driver.DriverManager;
 import com.pages.HRMHomePage;

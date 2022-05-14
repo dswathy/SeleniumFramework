@@ -16,14 +16,14 @@ import com.pages.HRMLoginPage;
 public final class HRMLoginPageTests extends HRMBaseTest{
 	
 	@Test(description = "Login in HRM System", dataProvider = "getTestData" , dataProviderClass = CustomDataProvider.class, retryAnalyzer = RetryAnalyzer.class)
-	public void TC_001(HashMap<String, String> data) {
+	public void testLoginPage(HashMap<String, String> data) {
 		HRMLoginPage loginObj = new HRMLoginPage();
 		loginObj.inputUserName(data.get("User Name")).inputPassword(data.get("Password")).clickLogin().doLogout();
 		Validations.verifyPageTitle("", loginObj.getPageTitle());
 	}
 	
 	@Test(dataProvider = "getTestData" , dataProviderClass = CustomDataProvider.class, retryAnalyzer = RetryAnalyzer.class)
-	public void TC_002(HashMap<String, String> data) {
+	public void testLoginPagewithValidCredential(HashMap<String, String> data) {
 		HRMLoginPage loginObj = new HRMLoginPage();
 		loginObj.inputUserName(data.get("User Name")).inputPassword(data.get("Password")).clickLogin().doLogout();
 		Validations.verifyPageTitle("", loginObj.getPageTitle());
