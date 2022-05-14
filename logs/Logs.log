@@ -1134,3 +1134,166 @@
 [INFO ] 2022-02-06 17:29:10.872 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
 
 [INFO ] 2022-02-06 17:29:10.872 [main] TestListener - Total Test Execution Duration is : 20 Hrs 38 mins 17 seconds
+[INFO ] 2022-05-14 12:05:25.241 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-05-14 12:05:27.251 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-05-14 12:05:27.323 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-05-14 12:05:27.341 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-05-14 12:05:27.342 [main] TestListener - Total Test Execution Duration is : 0 Hrs 35 mins 27 seconds
+[INFO ] 2022-05-14 12:05:46.729 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-05-14 12:05:48.202 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-05-14 12:05:48.264 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-05-14 12:05:48.273 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-05-14 12:05:48.273 [main] TestListener - Total Test Execution Duration is : 0 Hrs 26 mins 12 seconds
+[INFO ] 2022-05-14 12:06:50.992 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-05-14 12:06:52.378 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-05-14 12:06:52.432 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-05-14 12:06:52.440 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-05-14 12:06:52.440 [main] TestListener - Total Test Execution Duration is : 0 Hrs 24 mins 35 seconds
+[INFO ] 2022-05-14 12:08:41.883 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-05-14 12:08:43.282 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-05-14 12:08:43.342 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-05-14 12:08:43.433 [TestNG-test=Test-1] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-05-14 12:08:50.334 [TestNG-test=Test-1] Driver - Launched the Chrome browser.
+[INFO ] 2022-05-14 12:08:51.484 [TestNG-test=Test-1] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : testLoginIntoHRM ***********************
+[INFO ] 2022-05-14 12:08:51.529 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-05-14 12:08:51.767 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-05-14 12:08:51.768 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-05-14 12:08:51.923 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-05-14 12:08:51.925 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-05-14 12:08:53.711 [TestNG-test=Test-1] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-05-14 12:08:53.716 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-05-14 12:08:53.865 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-05-14 12:08:54.731 [TestNG-test=Test-1] TestListener - *********************** FAILED TEST CASE : testLoginIntoHRM ***********************
+[INFO ] 2022-05-14 12:08:55.361 [TestNG-test=Test-1] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-05-14 12:08:55.364 [TestNG-test=Test-1] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : testLoginPagewithValidCredential ***********************
+[INFO ] 2022-05-14 12:08:55.366 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-05-14 12:08:55.549 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-05-14 12:08:55.549 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-05-14 12:08:55.742 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-05-14 12:08:55.743 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-05-14 12:08:57.363 [TestNG-test=Test-1] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-05-14 12:08:57.364 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-05-14 12:08:57.572 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-05-14 12:09:00.211 [TestNG-test=Test-1] TestListener - *********************** FAILED TEST CASE : testLoginPagewithValidCredential ***********************
+[INFO ] 2022-05-14 12:09:00.791 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-05-14 12:09:00.791 [main] TestListener - Total Test Execution Duration is : 5 Hrs 15 mins 31 seconds
+[INFO ] 2022-05-14 12:10:55.734 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-05-14 12:10:57.171 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-05-14 12:10:57.226 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-05-14 12:10:57.329 [TestNG-test=Test-1] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-05-14 12:11:01.719 [TestNG-test=Test-1] Driver - Launched the Chrome browser.
+[INFO ] 2022-05-14 12:11:02.614 [TestNG-test=Test-1] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : testLoginIntoHRM ***********************
+[INFO ] 2022-05-14 12:11:02.660 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-05-14 12:11:02.876 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-05-14 12:11:02.876 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-05-14 12:11:03.033 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-05-14 12:11:03.035 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-05-14 12:11:04.873 [TestNG-test=Test-1] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-05-14 12:11:04.877 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-05-14 12:11:05.424 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-05-14 12:11:08.048 [TestNG-test=Test-1] TestListener - *********************** FAILED TEST CASE : testLoginIntoHRM ***********************
+[INFO ] 2022-05-14 12:11:08.914 [TestNG-test=Test-1] Driver - Terminated the broswer.
+[INFO ] 2022-05-14 12:11:10.614 [TestNG-test=Test-1] Driver - Launched the Chrome browser.
+[INFO ] 2022-05-14 12:11:11.584 [TestNG-test=Test-1] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : testLoginIntoHRM ***********************
+[INFO ] 2022-05-14 12:11:11.585 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-05-14 12:11:11.703 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-05-14 12:11:11.703 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-05-14 12:11:11.807 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-05-14 12:11:11.808 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-05-14 12:11:13.490 [TestNG-test=Test-1] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-05-14 12:11:13.490 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-05-14 12:11:13.910 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-05-14 12:11:14.357 [TestNG-test=Test-1] TestListener - *********************** FAILED TEST CASE : testLoginIntoHRM ***********************
+[INFO ] 2022-05-14 12:11:15.076 [TestNG-test=Test-1] Driver - Terminated the broswer.
+[INFO ] 2022-05-14 12:11:17.331 [TestNG-test=Test-1] Driver - Launched the Chrome browser.
+[INFO ] 2022-05-14 12:11:18.246 [TestNG-test=Test-1] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : testLoginIntoHRM ***********************
+[INFO ] 2022-05-14 12:11:18.247 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-05-14 12:11:18.376 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-05-14 12:11:18.378 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-05-14 12:11:18.489 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtPassword and data is: admin123456
+[INFO ] 2022-05-14 12:11:18.490 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-05-14 12:11:19.709 [TestNG-test=Test-1] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-05-14 12:11:19.710 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-05-14 12:11:29.872 [TestNG-test=Test-1] TestListener - *********************** FAILED TEST CASE : testLoginIntoHRM ***********************
+[INFO ] 2022-05-14 12:11:31.218 [TestNG-test=Test-1] Driver - Terminated the broswer.
+[INFO ] 2022-05-14 12:11:31.281 [TestNG-test=Test-1] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-05-14 12:11:36.141 [TestNG-test=Test-1] Driver - Launched the Edge browser.
+[INFO ] 2022-05-14 12:11:37.103 [TestNG-test=Test-1] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : testLoginPagewithValidCredential ***********************
+[INFO ] 2022-05-14 12:11:37.104 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-05-14 12:11:37.217 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-05-14 12:11:37.218 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-05-14 12:11:37.342 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-05-14 12:11:37.342 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-05-14 12:11:38.937 [TestNG-test=Test-1] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-05-14 12:11:38.937 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-05-14 12:11:39.370 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-05-14 12:11:39.756 [TestNG-test=Test-1] TestListener - *********************** FAILED TEST CASE : testLoginPagewithValidCredential ***********************
+[INFO ] 2022-05-14 12:11:40.519 [TestNG-test=Test-1] Driver - Terminated the broswer.
+[INFO ] 2022-05-14 12:11:40.521 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-05-14 12:11:40.522 [main] TestListener - Total Test Execution Duration is : 12 Hrs 26 mins 50 seconds
+[INFO ] 2022-05-14 12:12:12.099 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-05-14 12:12:13.489 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-05-14 12:12:13.549 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-05-14 12:12:13.648 [TestNG-test=Test-1] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-05-14 12:12:17.982 [TestNG-test=Test-1] Driver - Launched the Chrome browser.
+[INFO ] 2022-05-14 12:12:19.013 [TestNG-test=Test-1] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : testLoginIntoHRM ***********************
+[INFO ] 2022-05-14 12:12:19.054 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-05-14 12:12:19.268 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-05-14 12:12:19.268 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-05-14 12:12:19.430 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-05-14 12:12:19.432 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-05-14 12:12:21.350 [TestNG-test=Test-1] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-05-14 12:12:21.354 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-05-14 12:12:21.836 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-05-14 12:12:24.479 [TestNG-test=Test-1] TestListener - *********************** PASSED TEST CASE : testLoginIntoHRM ***********************
+[INFO ] 2022-05-14 12:12:25.301 [TestNG-test=Test-1] Driver - Terminated the broswer.
+[INFO ] 2022-05-14 12:12:26.959 [TestNG-test=Test-1] Driver - Launched the Chrome browser.
+[INFO ] 2022-05-14 12:12:27.754 [TestNG-test=Test-1] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : testLoginIntoHRM ***********************
+[INFO ] 2022-05-14 12:12:27.755 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-05-14 12:12:27.867 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-05-14 12:12:27.868 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-05-14 12:12:27.971 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-05-14 12:12:27.973 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-05-14 12:12:29.582 [TestNG-test=Test-1] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-05-14 12:12:29.582 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-05-14 12:12:30.072 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-05-14 12:12:32.716 [TestNG-test=Test-1] TestListener - *********************** PASSED TEST CASE : testLoginIntoHRM ***********************
+[INFO ] 2022-05-14 12:12:33.891 [TestNG-test=Test-1] Driver - Terminated the broswer.
+[INFO ] 2022-05-14 12:12:35.432 [TestNG-test=Test-1] Driver - Launched the Chrome browser.
+[INFO ] 2022-05-14 12:12:36.421 [TestNG-test=Test-1] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : testLoginIntoHRM ***********************
+[INFO ] 2022-05-14 12:12:36.423 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-05-14 12:12:36.540 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-05-14 12:12:36.541 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-05-14 12:12:36.646 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtPassword and data is: admin123456
+[INFO ] 2022-05-14 12:12:36.647 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-05-14 12:12:38.142 [TestNG-test=Test-1] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-05-14 12:12:38.142 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-05-14 12:12:48.325 [TestNG-test=Test-1] TestListener - *********************** FAILED TEST CASE : testLoginIntoHRM ***********************
+[INFO ] 2022-05-14 12:12:49.236 [TestNG-test=Test-1] Driver - Terminated the broswer.
+[INFO ] 2022-05-14 12:12:49.290 [TestNG-test=Test-1] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-05-14 12:12:52.304 [TestNG-test=Test-1] Driver - Launched the Edge browser.
+[INFO ] 2022-05-14 12:12:53.278 [TestNG-test=Test-1] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : testLoginPagewithValidCredential ***********************
+[INFO ] 2022-05-14 12:12:53.279 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-05-14 12:12:53.399 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-05-14 12:12:53.400 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-05-14 12:12:53.506 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-05-14 12:12:53.506 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-05-14 12:12:55.224 [TestNG-test=Test-1] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-05-14 12:12:55.224 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-05-14 12:12:55.686 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-05-14 12:12:56.087 [TestNG-test=Test-1] TestListener - *********************** PASSED TEST CASE : testLoginPagewithValidCredential ***********************
+[INFO ] 2022-05-14 12:12:56.953 [TestNG-test=Test-1] Driver - Terminated the broswer.
+[INFO ] 2022-05-14 12:12:56.954 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-05-14 12:12:56.954 [main] TestListener - Total Test Execution Duration is : 12 Hrs 28 mins 3 seconds
