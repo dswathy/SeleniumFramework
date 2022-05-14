@@ -1,0 +1,1136 @@
+[INFO ] 2022-01-01 21:53:05.169 [main] HRMLoginPageTests - Test Logging
+[INFO ] 2022-01-01 21:53:27.171 [main] HRMLoginPageTests - Test Logging
+[DEBUG] 2022-01-01 21:55:38.297 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2022-01-01 21:55:38.308 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2022-01-01 21:55:38.309 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2022-01-01 21:55:38.314 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6b5966e1
+[DEBUG] 2022-01-01 21:55:38.332 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2022-01-01 21:55:38.332 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2022-01-01 21:55:38.334 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2022-01-01 21:55:38.334 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2022-01-01 21:55:38.335 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2022-01-01 21:55:38.335 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2022-01-01 21:55:38.336 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2022-01-01 21:55:38.336 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2022-01-01 21:55:38.336 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2022-01-01 21:55:38.337 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2022-01-01 21:55:38.337 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\ashte\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2022-01-01 21:55:38.337 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2022-01-01 21:55:38.338 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2022-01-01 21:55:38.339 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 1890582528 bytes
+[DEBUG] 2022-01-01 21:55:38.339 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2022-01-01 21:55:38.341 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2022-01-01 21:55:38.341 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2022-01-01 21:55:38.349 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2022-01-01 21:55:38.390 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2022-01-01 21:55:38.390 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2022-01-01 21:55:38.434 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2022-01-01 21:55:38.435 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA]
+[DEBUG] 2022-01-01 21:55:38.501 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2022-01-01 21:55:38.525 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2022-01-01 21:55:38.525 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2022-01-01 21:55:38.598 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2022-01-01 21:55:38.599 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2022-01-01 21:55:38.599 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2022-01-01 21:55:38.599 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2022-01-01 21:55:38.600 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2022-01-01 21:55:38.600 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2022-01-01 21:55:38.600 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2022-01-01 21:55:38.600 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2022-01-01 21:55:38.601 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2022-01-01 21:55:38.601 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2022-01-01 21:55:38.601 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2022-01-01 21:55:38.602 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2022-01-01 21:55:38.620 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2022-01-01 21:55:38.621 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2022-01-01 21:55:38.621 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2022-01-01 21:55:39.487 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 4224 (auto-detected)
+[DEBUG] 2022-01-01 21:55:39.491 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2022-01-01 21:55:39.491 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2022-01-01 21:55:39.705 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2022-01-01 21:55:39.706 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2022-01-01 21:55:39.985 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: f8:da:0c:ff:fe:00:d8:2d (auto-detected)
+[DEBUG] 2022-01-01 21:55:40.059 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2022-01-01 21:55:40.060 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2022-01-01 21:55:40.060 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6ae3115b
+[DEBUG] 2022-01-01 21:55:40.097 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2022-01-01 21:55:40.097 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2022-01-01 21:55:40.097 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2022-01-01 21:55:40.098 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2022-01-01 21:55:40.098 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] 2022-01-01 21:55:41.585 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2022-01-01 21:55:41.751 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xa1396e13b70c3023
+[INFO ] 2022-01-01 21:55:41.802 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-01 21:55:47.200 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-01 21:55:47.325 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-01 21:55:52.998 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-01 21:55:53.802 [main] Driver - Terminated the broswer.
+[DEBUG] 2022-01-01 21:58:35.802 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2022-01-01 21:58:35.875 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2022-01-01 21:58:35.876 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2022-01-01 21:58:35.882 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@13f17eb4
+[DEBUG] 2022-01-01 21:58:35.900 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2022-01-01 21:58:35.900 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2022-01-01 21:58:35.901 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2022-01-01 21:58:35.902 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2022-01-01 21:58:35.902 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2022-01-01 21:58:35.903 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2022-01-01 21:58:35.903 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2022-01-01 21:58:35.904 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2022-01-01 21:58:35.904 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2022-01-01 21:58:35.904 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2022-01-01 21:58:35.904 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\ashte\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2022-01-01 21:58:35.905 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2022-01-01 21:58:35.905 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2022-01-01 21:58:35.906 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 1890582528 bytes
+[DEBUG] 2022-01-01 21:58:35.907 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2022-01-01 21:58:35.909 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2022-01-01 21:58:35.909 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2022-01-01 21:58:35.920 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2022-01-01 21:58:35.951 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2022-01-01 21:58:35.951 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2022-01-01 21:58:36.001 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2022-01-01 21:58:36.001 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA]
+[DEBUG] 2022-01-01 21:58:36.034 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2022-01-01 21:58:36.045 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2022-01-01 21:58:36.045 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2022-01-01 21:58:36.088 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2022-01-01 21:58:36.088 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2022-01-01 21:58:36.088 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2022-01-01 21:58:36.089 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2022-01-01 21:58:36.089 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2022-01-01 21:58:36.089 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2022-01-01 21:58:36.089 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2022-01-01 21:58:36.089 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2022-01-01 21:58:36.089 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2022-01-01 21:58:36.089 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2022-01-01 21:58:36.090 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2022-01-01 21:58:36.090 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2022-01-01 21:58:36.102 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2022-01-01 21:58:36.102 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2022-01-01 21:58:36.102 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2022-01-01 21:58:36.997 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 4888 (auto-detected)
+[DEBUG] 2022-01-01 21:58:37.001 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2022-01-01 21:58:37.001 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2022-01-01 21:58:37.212 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2022-01-01 21:58:37.213 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2022-01-01 21:58:37.441 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: f8:da:0c:ff:fe:00:d8:2d (auto-detected)
+[DEBUG] 2022-01-01 21:58:37.490 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2022-01-01 21:58:37.490 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2022-01-01 21:58:37.490 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1956d3b8
+[DEBUG] 2022-01-01 21:58:37.516 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2022-01-01 21:58:37.516 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2022-01-01 21:58:37.517 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2022-01-01 21:58:37.517 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2022-01-01 21:58:37.517 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] 2022-01-01 21:58:38.520 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2022-01-01 21:58:38.683 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xb8713eb7477df917
+[INFO ] 2022-01-01 21:58:38.736 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-01 21:58:43.815 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-01 21:58:43.953 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-01 21:58:50.395 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-01 21:58:51.089 [main] Driver - Terminated the broswer.
+[DEBUG] 2022-01-02 12:33:32.695 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2022-01-02 12:33:32.771 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2022-01-02 12:33:32.771 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2022-01-02 12:33:32.781 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6b5966e1
+[DEBUG] 2022-01-02 12:33:32.823 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2022-01-02 12:33:32.824 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2022-01-02 12:33:32.826 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2022-01-02 12:33:32.828 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2022-01-02 12:33:32.829 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2022-01-02 12:33:32.830 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2022-01-02 12:33:32.832 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2022-01-02 12:33:32.833 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2022-01-02 12:33:32.834 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2022-01-02 12:33:32.834 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2022-01-02 12:33:32.850 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\ashte\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2022-01-02 12:33:32.851 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2022-01-02 12:33:32.853 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2022-01-02 12:33:32.856 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 1890582528 bytes
+[DEBUG] 2022-01-02 12:33:32.856 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2022-01-02 12:33:32.857 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2022-01-02 12:33:32.858 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2022-01-02 12:33:32.873 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2022-01-02 12:33:32.930 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2022-01-02 12:33:32.930 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2022-01-02 12:33:32.984 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2022-01-02 12:33:32.985 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA]
+[DEBUG] 2022-01-02 12:33:33.084 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2022-01-02 12:33:33.106 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2022-01-02 12:33:33.106 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2022-01-02 12:33:33.169 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2022-01-02 12:33:33.170 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2022-01-02 12:33:33.170 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2022-01-02 12:33:33.170 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2022-01-02 12:33:33.170 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2022-01-02 12:33:33.170 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2022-01-02 12:33:33.171 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2022-01-02 12:33:33.171 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2022-01-02 12:33:33.171 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2022-01-02 12:33:33.172 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2022-01-02 12:33:33.172 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2022-01-02 12:33:33.172 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2022-01-02 12:33:33.184 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2022-01-02 12:33:33.184 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2022-01-02 12:33:33.185 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2022-01-02 12:33:34.454 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 13040 (auto-detected)
+[DEBUG] 2022-01-02 12:33:34.459 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2022-01-02 12:33:34.460 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2022-01-02 12:33:34.710 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2022-01-02 12:33:34.711 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2022-01-02 12:33:35.069 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: f8:da:0c:ff:fe:00:d8:2d (auto-detected)
+[DEBUG] 2022-01-02 12:33:35.280 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2022-01-02 12:33:35.281 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2022-01-02 12:33:35.281 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@50cfcb13
+[DEBUG] 2022-01-02 12:33:35.424 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2022-01-02 12:33:35.425 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2022-01-02 12:33:35.426 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2022-01-02 12:33:35.427 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2022-01-02 12:33:35.428 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] 2022-01-02 12:33:37.148 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2022-01-02 12:33:38.246 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x0cea1901abd83e22
+[INFO ] 2022-01-02 12:33:38.927 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-02 12:33:44.985 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-02 12:33:45.142 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-02 12:33:50.972 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-02 12:33:51.829 [main] Driver - Terminated the broswer.
+[DEBUG] 2022-01-02 12:40:19.859 [main] InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 2022-01-02 12:40:19.926 [main] ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 2022-01-02 12:40:19.926 [main] ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 2022-01-02 12:40:19.932 [main] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@13f17eb4
+[DEBUG] 2022-01-02 12:40:19.949 [main] PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 2022-01-02 12:40:19.950 [main] PlatformDependent0 - Java version: 8
+[DEBUG] 2022-01-02 12:40:19.951 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2022-01-02 12:40:19.952 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2022-01-02 12:40:19.952 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2022-01-02 12:40:19.952 [main] PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 2022-01-02 12:40:19.953 [main] PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 2022-01-02 12:40:19.954 [main] PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 2022-01-02 12:40:19.954 [main] PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 2022-01-02 12:40:19.954 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2022-01-02 12:40:19.954 [main] PlatformDependent - -Dio.netty.tmpdir: C:\Users\ashte\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 2022-01-02 12:40:19.954 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2022-01-02 12:40:19.955 [main] PlatformDependent - Platform: Windows
+[DEBUG] 2022-01-02 12:40:19.956 [main] PlatformDependent - -Dio.netty.maxDirectMemory: 1890582528 bytes
+[DEBUG] 2022-01-02 12:40:19.956 [main] PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 2022-01-02 12:40:19.957 [main] CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 2022-01-02 12:40:19.957 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2022-01-02 12:40:19.966 [main] PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 2022-01-02 12:40:19.993 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 2022-01-02 12:40:19.993 [main] InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 2022-01-02 12:40:20.039 [main] JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 2022-01-02 12:40:20.039 [main] JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA]
+[DEBUG] 2022-01-02 12:40:20.087 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+[DEBUG] 2022-01-02 12:40:20.109 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2022-01-02 12:40:20.109 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[DEBUG] 2022-01-02 12:40:20.165 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2022-01-02 12:40:20.165 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2022-01-02 12:40:20.166 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2022-01-02 12:40:20.166 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2022-01-02 12:40:20.166 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2022-01-02 12:40:20.166 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2022-01-02 12:40:20.166 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2022-01-02 12:40:20.166 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2022-01-02 12:40:20.166 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2022-01-02 12:40:20.166 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 2022-01-02 12:40:20.166 [main] PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 2022-01-02 12:40:20.166 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 2022-01-02 12:40:20.177 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2022-01-02 12:40:20.177 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 2022-01-02 12:40:20.177 [main] ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 2022-01-02 12:40:21.066 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.processId: 11812 (auto-detected)
+[DEBUG] 2022-01-02 12:40:21.069 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 2022-01-02 12:40:21.069 [Forwarding newSession on session null to remote] NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 2022-01-02 12:40:21.332 [Forwarding newSession on session null to remote] NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 2022-01-02 12:40:21.334 [Forwarding newSession on session null to remote] NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 2022-01-02 12:40:21.715 [Forwarding newSession on session null to remote] DefaultChannelId - -Dio.netty.machineId: f8:da:0c:ff:fe:00:d8:2d (auto-detected)
+[DEBUG] 2022-01-02 12:40:21.781 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 2022-01-02 12:40:21.781 [AsyncHttpClient-1-2] AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 2022-01-02 12:40:21.782 [AsyncHttpClient-1-2] ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5bca5fdf
+[DEBUG] 2022-01-02 12:40:21.817 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 2022-01-02 12:40:21.817 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 2022-01-02 12:40:21.818 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 2022-01-02 12:40:21.818 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 2022-01-02 12:40:21.819 [AsyncHttpClient-1-2] Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+[DEBUG] 2022-01-02 12:40:22.777 [AsyncHttpClient-1-2] Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+[DEBUG] 2022-01-02 12:40:23.207 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xfb07cdd4aab46678
+[INFO ] 2022-01-02 12:40:23.348 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-02 12:40:30.904 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-02 12:40:31.073 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-02 12:40:37.368 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-02 12:40:38.137 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-02 12:41:24.940 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-02 12:41:30.557 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-02 12:41:30.714 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-02 12:41:34.823 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-02 12:41:35.766 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-02 12:51:06.468 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-02 12:51:12.189 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-02 12:51:12.336 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-02 12:51:17.675 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-02 12:51:18.409 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-02 12:52:13.934 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-02 12:52:22.990 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : LoginTest ***********************
+[INFO ] 2022-01-02 12:52:23.262 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-02 12:52:23.435 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-02 12:52:28.479 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-02 12:52:29.319 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-02 12:56:38.760 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : Default test ***********************
+[INFO ] 2022-01-02 12:56:42.979 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-02 12:56:49.376 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-02 12:56:49.555 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-02 12:56:55.707 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-02 12:56:56.427 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-02 13:00:38.192 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 13:00:42.200 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-02 13:00:46.766 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : LoginTest ***********************
+[INFO ] 2022-01-02 13:00:47.014 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-02 13:00:47.175 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-02 13:00:54.219 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-02 13:00:54.226 [main] TestListener - *********************** PASSED TEST CASE : LoginTest ***********************
+[INFO ] 2022-01-02 13:00:55.030 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-02 13:00:56.947 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-02 13:01:06.786 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : LoginTest2 ***********************
+[INFO ] 2022-01-02 13:01:06.966 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-02 13:01:07.136 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-02 13:01:13.560 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-02 13:01:13.562 [main] TestListener - *********************** PASSED TEST CASE : LoginTest2 ***********************
+[INFO ] 2022-01-02 13:01:14.341 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-02 13:01:14.343 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 13:17:29.544 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 13:17:29.551 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 13:18:24.302 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 13:18:28.706 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-02 13:18:34.951 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : LoginTest ***********************
+[INFO ] 2022-01-02 13:18:34.981 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-02 13:18:35.177 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-02 13:18:35.178 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-02 13:18:35.345 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-02 13:18:35.346 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-02 13:18:42.722 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-02 13:18:42.726 [main] TestListener - *********************** PASSED TEST CASE : LoginTest ***********************
+[INFO ] 2022-01-02 13:18:43.578 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-02 13:18:45.340 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-02 13:18:53.918 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : LoginTest2 ***********************
+[INFO ] 2022-01-02 13:18:53.922 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-02 13:18:54.219 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-02 13:18:54.220 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-02 13:18:54.410 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-02 13:18:54.410 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-02 13:18:59.714 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-02 13:18:59.714 [main] TestListener - *********************** PASSED TEST CASE : LoginTest2 ***********************
+[INFO ] 2022-01-02 13:19:00.611 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-02 13:19:00.612 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 13:19:50.189 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 13:19:56.064 [TestNG-test=Test-2] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-02 13:19:56.066 [TestNG-test=Test-1] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-02 13:20:03.296 [TestNG-test=Test-2] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : LoginTest2 ***********************
+[INFO ] 2022-01-02 13:20:03.339 [TestNG-test=Test-2] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-02 13:20:03.639 [TestNG-test=Test-2] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-02 13:20:03.644 [TestNG-test=Test-2] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-02 13:20:03.862 [TestNG-test=Test-2] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-02 13:20:03.867 [TestNG-test=Test-2] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-02 13:20:04.027 [TestNG-test=Test-1] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : LoginTest ***********************
+[INFO ] 2022-01-02 13:20:04.039 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-02 13:20:04.178 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-02 13:20:04.184 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-02 13:20:04.321 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-02 13:20:04.321 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-02 13:20:10.594 [TestNG-test=Test-2] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-02 13:20:10.608 [TestNG-test=Test-2] TestListener - *********************** PASSED TEST CASE : LoginTest2 ***********************
+[INFO ] 2022-01-02 13:20:11.462 [TestNG-test=Test-2] Driver - Terminated the broswer.
+[INFO ] 2022-01-02 13:20:12.417 [TestNG-test=Test-1] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-02 13:20:12.418 [TestNG-test=Test-1] TestListener - *********************** PASSED TEST CASE : LoginTest ***********************
+[INFO ] 2022-01-02 13:20:13.130 [TestNG-test=Test-1] Driver - Terminated the broswer.
+[INFO ] 2022-01-02 13:20:13.133 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 13:40:30.548 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-02 13:40:35.711 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-02 13:40:35.921 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-02 13:40:35.922 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-02 13:40:36.101 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-02 13:40:36.104 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-02 13:40:40.839 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-02 13:40:40.881 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-01-02 13:40:41.076 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-01-02 13:40:45.330 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-02 16:46:40.357 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 16:46:51.917 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-02 16:46:56.106 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : LoginTest ***********************
+[INFO ] 2022-01-02 16:46:57.375 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-02 16:46:57.646 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-02 16:46:57.647 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-02 16:46:57.835 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-02 16:46:57.836 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-02 16:47:04.499 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-02 16:47:04.503 [main] TestListener - *********************** PASSED TEST CASE : LoginTest ***********************
+[INFO ] 2022-01-02 16:47:05.536 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-02 16:47:05.541 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 16:47:05.542 [main] TestListener - Total Test Execution Duration in seconds: 25
+[INFO ] 2022-01-02 16:50:54.327 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 16:50:58.771 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-02 16:51:03.134 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : LoginTest ***********************
+[INFO ] 2022-01-02 16:51:03.164 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-02 16:51:03.405 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-02 16:51:03.407 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-02 16:51:03.562 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-02 16:51:03.563 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-02 16:51:09.105 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-02 16:51:09.112 [main] TestListener - *********************** PASSED TEST CASE : LoginTest ***********************
+[INFO ] 2022-01-02 16:51:09.897 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-02 16:51:11.675 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-02 16:51:21.439 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : LoginTest2 ***********************
+[INFO ] 2022-01-02 16:51:21.444 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-02 16:51:21.608 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-02 16:51:21.609 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-02 16:51:21.751 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-02 16:51:21.752 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-02 16:51:27.374 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-02 16:51:27.374 [main] TestListener - *********************** PASSED TEST CASE : LoginTest2 ***********************
+[INFO ] 2022-01-02 16:51:28.219 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-02 16:51:28.222 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 16:51:28.222 [main] TestListener - Total Test Execution Duration : %.2l hours and %.2l minutes00
+[INFO ] 2022-01-02 17:58:00.737 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 17:58:02.157 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 17:58:02.157 [main] TestListener - Total Test Execution Duration : 0 minutes
+[INFO ] 2022-01-02 17:58:18.814 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 17:58:19.557 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 17:58:19.557 [main] TestListener - Total Test Execution Duration : 0 minutes
+[INFO ] 2022-01-02 17:59:17.531 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 17:59:39.832 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 17:59:39.838 [main] TestListener - Total Test Execution Duration : 0 minutes
+[INFO ] 2022-01-02 18:00:45.046 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 18:01:27.776 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 18:01:27.782 [main] TestListener - Total Test Execution Duration : 0 minutes
+[INFO ] 2022-01-02 18:04:56.976 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 18:06:45.764 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 18:06:45.774 [main] TestListener - Total Test Execution Duration : 1 minutes
+[INFO ] 2022-01-02 18:07:27.254 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 18:08:24.583 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 18:09:12.507 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 18:09:12.508 [main] TestListener - Total Test Execution Duration : 0 minutes
+[INFO ] 2022-01-02 18:10:53.984 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 18:11:56.142 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 18:12:35.156 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 18:12:35.157 [main] TestListener - Total Test Execution Duration : 0 minutes
+[INFO ] 2022-01-02 18:13:22.982 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 18:13:23.845 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 18:13:23.845 [main] TestListener - Total Test Execution Duration : 0 minutes
+[INFO ] 2022-01-02 18:13:58.619 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 18:15:52.554 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 18:15:53.368 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 18:15:53.368 [main] TestListener - Total Test Execution Duration : 0 minutes
+[INFO ] 2022-01-02 18:17:09.416 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 18:17:10.285 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 18:17:10.286 [main] TestListener - Total Test Execution Duration : 0 minutes
+[INFO ] 2022-01-02 18:18:08.539 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 18:19:32.743 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 18:19:32.745 [main] TestListener - Total Test Execution Duration : 1 minutes
+[INFO ] 2022-01-02 18:22:30.320 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 18:25:48.297 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 18:25:48.297 [main] TestListener - Total Test Execution Duration : 3 minutes
+[INFO ] 2022-01-02 18:26:25.573 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 18:29:02.192 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 19:22:59.976 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 19:24:45.096 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 19:24:46.031 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 19:24:46.031 [main] TestListener - Total Test Execution Duration : 0 minutes
+[INFO ] 2022-01-02 19:24:55.924 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 19:24:56.804 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 19:24:56.804 [main] TestListener - Total Test Execution Duration : 0 minutes
+[INFO ] 2022-01-02 19:25:47.873 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 19:25:48.201 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 19:25:49.238 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 19:25:49.238 [main] TestListener - Total Test Execution Duration : 0 minutes
+[INFO ] 2022-01-02 19:25:49.708 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 19:25:49.708 [main] TestListener - Total Test Execution Duration : 0 minutes
+[INFO ] 2022-01-02 19:26:10.281 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 19:29:26.080 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 19:29:26.081 [main] TestListener - Total Test Execution Duration : 3 minutes
+[INFO ] 2022-01-02 19:29:34.791 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-02 19:30:01.231 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-02 19:30:13.183 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-01-02 19:30:13.215 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-02 19:30:13.479 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-02 19:30:21.203 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-02 19:30:21.348 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-02 19:30:21.349 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-02 19:30:26.429 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-02 19:30:26.436 [main] TestListener - *********************** PASSED TEST CASE : TC_001 ***********************
+[INFO ] 2022-01-02 19:30:27.491 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-02 19:30:27.503 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-02 19:30:27.503 [main] TestListener - Total Test Execution Duration : 0 minutes
+[INFO ] 2022-01-15 17:44:16.172 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-15 17:44:18.780 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-15 17:44:23.755 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-01-15 17:44:23.810 [main] TestListener - *********************** SKIPPED TEST CASE : TC_001 ***********************
+[INFO ] 2022-01-15 17:44:23.848 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_002 ***********************
+[INFO ] 2022-01-15 17:44:23.853 [main] TestListener - *********************** SKIPPED TEST CASE : TC_002 ***********************
+[INFO ] 2022-01-15 17:44:23.866 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-15 17:44:23.867 [main] TestListener - Total Test Execution Duration is : 2 Hrs 8 mins 40 seconds
+[INFO ] 2022-01-15 19:42:47.650 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-15 19:42:49.578 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-15 19:43:07.673 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-15 19:43:15.937 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-01-15 19:43:16.106 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-15 19:43:16.472 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-15 19:43:16.472 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-15 19:43:16.654 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-15 19:43:16.655 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-15 19:43:32.404 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-15 19:43:32.408 [main] TestListener - *********************** PASSED TEST CASE : TC_001 ***********************
+[INFO ] 2022-01-15 19:43:33.298 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-15 19:43:33.301 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-15 19:43:33.301 [main] TestListener - Total Test Execution Duration is : 12 Hrs 41 mins 12 seconds
+[INFO ] 2022-01-15 19:46:23.638 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-15 19:46:24.726 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-15 19:46:29.592 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-15 19:46:35.731 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-01-15 19:46:35.999 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-15 19:46:36.153 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-15 19:46:36.154 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-15 19:46:36.271 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-15 19:46:36.272 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-15 19:46:53.774 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-15 19:46:53.801 [main] TestListener - *********************** PASSED TEST CASE : TC_001 ***********************
+[INFO ] 2022-01-15 19:46:54.572 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-15 19:46:54.573 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-15 19:46:54.574 [main] TestListener - Total Test Execution Duration is : 8 Hrs 36 mins 1 seconds
+[INFO ] 2022-01-15 20:14:48.181 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-15 20:16:13.411 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-15 20:19:20.849 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-15 20:22:13.096 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-15 20:22:18.667 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-01-15 20:22:18.790 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-15 20:22:18.980 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-15 20:22:18.981 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-15 20:22:19.100 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-15 20:22:19.101 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-15 20:22:36.597 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-15 20:22:36.611 [main] TestListener - *********************** PASSED TEST CASE : TC_001 ***********************
+[INFO ] 2022-01-15 20:22:37.392 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-15 20:22:40.035 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-15 20:22:46.018 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_002 ***********************
+[INFO ] 2022-01-15 20:22:46.023 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-15 20:22:46.167 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-15 20:22:46.168 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-15 20:22:46.280 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-15 20:22:46.281 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-15 20:23:03.832 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-15 20:23:03.832 [main] TestListener - *********************** PASSED TEST CASE : TC_002 ***********************
+[INFO ] 2022-01-15 20:23:04.830 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-15 20:23:04.837 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-15 20:23:04.838 [main] TestListener - Total Test Execution Duration is : 54 Hrs 17 mins 40 seconds
+[INFO ] 2022-01-15 20:41:58.992 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-15 20:42:00.065 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-15 20:42:05.122 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-15 20:42:10.256 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-01-15 20:42:10.277 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-15 20:42:10.424 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-15 20:42:10.425 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-15 20:42:10.539 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-15 20:42:10.539 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-15 20:42:28.205 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-15 20:42:28.209 [main] TestListener - *********************** PASSED TEST CASE : TC_001 ***********************
+[INFO ] 2022-01-15 20:42:41.651 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-15 20:42:45.362 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-15 20:42:50.315 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_002 ***********************
+[INFO ] 2022-01-15 20:42:50.317 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-15 20:42:50.444 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-15 20:42:50.444 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-15 20:42:50.600 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-15 20:42:50.601 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-15 20:43:08.246 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-15 20:43:08.247 [main] TestListener - *********************** PASSED TEST CASE : TC_002 ***********************
+[INFO ] 2022-01-15 20:43:21.531 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-15 20:43:21.532 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-15 20:43:21.533 [main] TestListener - Total Test Execution Duration is : 22 Hrs 56 mins 4 seconds
+[INFO ] 2022-01-15 20:44:25.818 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-15 20:44:26.773 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-15 20:44:33.675 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-15 20:44:39.919 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-01-15 20:44:39.952 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-15 20:44:40.099 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-15 20:44:40.100 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-15 20:44:40.214 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-15 20:44:40.214 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-15 20:44:57.557 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-15 20:44:57.562 [main] TestListener - *********************** FAILED TEST CASE : TC_001 ***********************
+[INFO ] 2022-01-15 20:44:57.562 [main] TestListener - *********************** FAILED TEST CASE : TC_001 ***********************
+[INFO ] 2022-01-15 20:44:57.563 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-15 20:44:57.564 [main] TestListener - Total Test Execution Duration is : 8 Hrs 49 mins 24 seconds
+[INFO ] 2022-01-15 20:52:56.248 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-15 20:53:20.036 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-15 20:53:30.496 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-15 20:53:39.354 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-01-15 20:53:39.392 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-15 20:53:39.553 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-15 20:53:39.553 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-15 20:53:39.670 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-15 20:53:39.671 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-15 20:53:57.304 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-15 20:53:57.315 [main] TestListener - *********************** FAILED TEST CASE : TC_001 ***********************
+[INFO ] 2022-01-15 20:58:00.856 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-15 20:58:01.830 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-15 20:58:06.290 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-15 20:58:16.390 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-01-15 20:58:16.423 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-15 20:58:16.581 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-15 20:58:16.581 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-15 20:58:16.695 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-15 20:58:16.696 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-15 20:58:34.387 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-15 20:58:34.392 [main] TestListener - *********************** FAILED TEST CASE : TC_001 ***********************
+[INFO ] 2022-01-15 20:58:46.672 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-15 20:58:46.674 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-15 20:58:46.674 [main] TestListener - Total Test Execution Duration is : 12 Hrs 43 mins 57 seconds
+[INFO ] 2022-01-15 20:59:49.153 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-15 20:59:50.133 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-15 20:59:54.423 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-15 21:00:06.673 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-01-15 21:00:06.704 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-15 21:00:06.844 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-15 21:00:06.845 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-15 21:00:06.969 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-15 21:00:06.970 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-15 21:00:24.675 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-15 21:00:24.682 [main] TestListener - *********************** FAILED TEST CASE : TC_001 ***********************
+[INFO ] 2022-01-15 21:00:37.019 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-15 21:00:37.020 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-15 21:00:37.021 [main] TestListener - Total Test Execution Duration is : 13 Hrs 18 mins 6 seconds
+[INFO ] 2022-01-29 16:36:22.433 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-29 16:36:23.689 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-29 16:36:23.753 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 16:36:52.334 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 16:36:52.345 [main] TestListener - *********************** SKIPPED TEST CASE : TC_001 ***********************
+[INFO ] 2022-01-29 16:36:52.410 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-29 16:36:52.411 [main] TestListener - Total Test Execution Duration is : 8 Hrs 20 mins 16 seconds
+[INFO ] 2022-01-29 16:37:49.477 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-29 16:37:50.705 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-29 16:37:50.767 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 16:38:12.386 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 16:39:37.267 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-29 16:39:38.681 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-29 16:39:38.738 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 16:39:51.487 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 16:40:05.173 [main] TestListener - *********************** SKIPPED TEST CASE : TC_001 ***********************
+[INFO ] 2022-01-29 16:40:05.185 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-29 16:40:05.185 [main] TestListener - Total Test Execution Duration is : 7 Hrs 45 mins 49 seconds
+[INFO ] 2022-01-29 16:46:20.233 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-29 16:46:23.934 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-29 16:46:23.992 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 16:46:34.827 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 16:48:48.597 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-29 16:49:06.093 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-01-29 16:50:26.284 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-29 16:50:26.635 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-29 16:50:26.636 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-29 16:50:26.793 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-29 16:50:26.794 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-29 16:50:34.149 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-29 16:50:34.163 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-01-29 16:50:34.337 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-01-29 16:50:38.681 [main] TestListener - *********************** PASSED TEST CASE : TC_001 ***********************
+[INFO ] 2022-01-29 16:50:40.428 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-29 16:50:42.918 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-29 16:51:00.586 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-01-29 16:51:14.582 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-29 16:51:14.745 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-29 16:51:14.746 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-29 16:51:14.876 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-29 16:51:14.876 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-29 16:51:21.695 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-29 16:51:21.696 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-01-29 16:51:21.821 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-01-29 16:51:25.290 [main] TestListener - *********************** PASSED TEST CASE : TC_001 ***********************
+[INFO ] 2022-01-29 16:51:26.525 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-29 16:51:28.227 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-29 16:51:39.987 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-01-29 16:53:17.820 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-29 16:53:19.148 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-29 16:53:19.202 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 16:53:52.588 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 16:54:18.172 [main] TestListener - *********************** SKIPPED TEST CASE : TC_001 ***********************
+[INFO ] 2022-01-29 16:54:18.240 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-29 16:54:18.241 [main] TestListener - Total Test Execution Duration is : 16 Hrs 47 mins 22 seconds
+[INFO ] 2022-01-29 17:16:45.414 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-29 17:16:47.027 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-29 17:16:47.089 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 17:16:47.415 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 17:17:03.823 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-29 17:35:10.701 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-29 17:35:11.943 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-29 17:35:11.999 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 17:35:12.076 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 17:39:50.925 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-29 17:39:51.892 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-29 17:39:51.951 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 17:39:52.012 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-29 17:39:52.052 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 17:41:02.325 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-29 17:41:03.268 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-29 17:41:03.313 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 17:41:03.377 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 17:41:10.807 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-29 17:41:29.082 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-01-29 17:41:30.109 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-29 17:41:30.864 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-29 17:41:30.865 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-29 17:41:31.125 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-29 17:41:31.126 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-29 17:41:39.734 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-29 17:41:39.736 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-01-29 17:41:39.890 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-01-29 17:41:44.428 [main] TestListener - *********************** PASSED TEST CASE : TC_001 ***********************
+[INFO ] 2022-01-29 17:41:45.562 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-29 17:41:47.373 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-29 17:41:59.843 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-01-29 17:41:59.847 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-29 17:42:00.042 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-29 17:42:00.043 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-29 17:42:00.261 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-29 17:42:00.263 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-29 17:42:08.873 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-29 17:42:08.874 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-01-29 17:42:09.009 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-01-29 17:42:13.215 [main] TestListener - *********************** PASSED TEST CASE : TC_001 ***********************
+[INFO ] 2022-01-29 17:42:14.573 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-29 17:42:14.623 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 17:42:47.135 [main] Driver - Launched the Edge browser.
+[INFO ] 2022-01-29 17:43:03.296 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_002 ***********************
+[INFO ] 2022-01-29 17:43:03.298 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-29 17:43:03.456 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-29 17:43:03.459 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-29 17:43:03.626 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-29 17:43:03.627 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-29 17:43:13.544 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-29 17:43:13.544 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-01-29 17:43:13.734 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-01-29 17:43:20.419 [main] TestListener - *********************** PASSED TEST CASE : TC_002 ***********************
+[INFO ] 2022-01-29 17:43:22.186 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-29 17:43:22.187 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-29 17:43:22.188 [main] TestListener - Total Test Execution Duration is : 38 Hrs 51 mins 22 seconds
+[INFO ] 2022-01-29 17:45:16.169 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-29 17:45:17.183 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-29 17:45:17.261 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 17:45:17.327 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-29 17:45:17.397 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 17:45:48.555 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-01-29 17:45:49.874 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-01-29 17:45:49.962 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 17:45:50.083 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 17:45:56.560 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-29 17:46:10.987 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-01-29 17:46:11.206 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-29 17:46:11.513 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-29 17:46:11.514 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-29 17:46:11.756 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-29 17:46:11.757 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-29 17:46:22.550 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-29 17:46:22.554 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-01-29 17:46:22.784 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-01-29 17:46:27.873 [main] TestListener - *********************** PASSED TEST CASE : TC_001 ***********************
+[INFO ] 2022-01-29 17:46:29.770 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-29 17:46:31.571 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-01-29 17:46:57.677 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-01-29 17:46:57.680 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-29 17:46:57.853 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-29 17:46:57.854 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-29 17:46:57.994 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123456
+[INFO ] 2022-01-29 17:46:57.994 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-29 17:47:01.480 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-29 17:47:01.482 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-01-29 17:47:11.692 [main] TestListener - *********************** FAILED TEST CASE : TC_001 ***********************
+[INFO ] 2022-01-29 17:47:14.401 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-29 17:47:14.500 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-01-29 17:47:18.189 [main] Driver - Launched the Edge browser.
+[INFO ] 2022-01-29 17:47:34.395 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_002 ***********************
+[INFO ] 2022-01-29 17:47:34.398 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-01-29 17:47:34.678 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-01-29 17:47:34.679 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-01-29 17:47:34.899 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-01-29 17:47:34.900 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-01-29 17:47:42.168 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-01-29 17:47:42.168 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-01-29 17:47:42.412 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-01-29 17:47:46.948 [main] TestListener - *********************** PASSED TEST CASE : TC_002 ***********************
+[INFO ] 2022-01-29 17:47:48.197 [main] Driver - Terminated the broswer.
+[INFO ] 2022-01-29 17:47:48.199 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-01-29 17:47:48.199 [main] TestListener - Total Test Execution Duration is : 33 Hrs 14 mins 24 seconds
+[INFO ] 2022-02-06 16:07:52.522 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-02-06 16:07:54.582 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 16:07:54.632 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:07:54.699 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 16:07:54.737 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:09:16.121 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-02-06 16:09:17.030 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 16:09:17.079 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:09:17.147 [main] ExcelUtils - Data read from excel successfully for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 16:09:17.213 [main] ExcelUtils - Data read from excel successfully for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:10:13.899 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-02-06 16:10:13.899 [main] TestListener - Total Test Execution Duration is : 16 Hrs 6 mins 52 seconds
+[INFO ] 2022-02-06 16:15:15.654 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-02-06 16:15:16.851 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 16:15:16.906 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:15:43.279 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 16:15:43.342 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:16:25.969 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-02-06 16:16:25.970 [main] TestListener - Total Test Execution Duration is : 19 Hrs 36 mins 58 seconds
+[INFO ] 2022-02-06 16:17:37.575 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-02-06 16:17:38.885 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 16:17:38.935 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:17:38.985 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 16:17:39.027 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:18:33.760 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-02-06 16:18:34.907 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 16:18:34.961 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:18:35.000 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 16:18:35.064 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:19:10.961 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-02-06 16:19:10.961 [main] TestListener - Total Test Execution Duration is : 10 Hrs 24 mins 23 seconds
+[INFO ] 2022-02-06 16:21:25.025 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-02-06 16:21:26.220 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 16:21:26.280 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:21:48.179 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 16:21:51.293 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:27:40.550 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-02-06 16:27:41.506 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 16:27:41.579 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:27:41.632 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 16:27:41.673 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:28:19.673 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-02-06 16:28:19.673 [main] TestListener - Total Test Execution Duration is : 10 Hrs 55 mins 28 seconds
+[INFO ] 2022-02-06 16:32:23.868 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-02-06 16:32:42.976 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 16:32:49.577 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:49:06.008 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 16:49:20.357 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:52:29.385 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-02-06 16:52:30.505 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 16:52:30.550 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:52:30.616 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:52:43.268 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-02-06 16:52:47.717 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-02-06 16:52:48.141 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-02-06 16:52:48.638 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-02-06 16:52:48.639 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-02-06 16:52:48.818 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-02-06 16:52:48.819 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-02-06 16:52:54.065 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-02-06 16:52:54.066 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-02-06 16:52:54.237 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-02-06 16:52:57.718 [main] TestListener - *********************** PASSED TEST CASE : TC_001 ***********************
+[INFO ] 2022-02-06 16:52:59.418 [main] Driver - Terminated the broswer.
+[INFO ] 2022-02-06 16:53:01.505 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-02-06 16:53:07.673 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-02-06 16:53:07.677 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-02-06 16:53:07.836 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-02-06 16:53:07.836 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-02-06 16:53:07.976 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123456
+[INFO ] 2022-02-06 16:53:07.977 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-02-06 16:53:09.987 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-02-06 16:53:09.988 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-02-06 16:53:20.338 [main] TestListener - *********************** FAILED TEST CASE : TC_001 ***********************
+[INFO ] 2022-02-06 16:53:21.332 [main] Driver - Terminated the broswer.
+[INFO ] 2022-02-06 16:53:21.402 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:54:02.686 [main] Driver - Launched the Edge browser.
+[INFO ] 2022-02-06 16:54:09.315 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_002 ***********************
+[INFO ] 2022-02-06 16:54:09.318 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-02-06 16:54:09.467 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-02-06 16:54:09.467 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-02-06 16:54:09.585 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-02-06 16:54:09.586 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-02-06 16:54:15.926 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-02-06 16:54:15.926 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-02-06 16:54:16.036 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-02-06 16:54:20.286 [main] TestListener - *********************** PASSED TEST CASE : TC_002 ***********************
+[INFO ] 2022-02-06 16:54:21.450 [main] Driver - Terminated the broswer.
+[INFO ] 2022-02-06 16:54:21.453 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-02-06 16:54:21.454 [main] TestListener - Total Test Execution Duration is : 31 Hrs 8 mins 5 seconds
+[INFO ] 2022-02-06 16:56:44.892 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-02-06 16:56:45.787 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 16:56:45.833 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:56:45.975 [TestNG-test=Test-1] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:56:45.993 [TestNG-test=Test-2] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 16:56:50.929 [TestNG-test=Test-2] Driver - Launched the Edge browser.
+[INFO ] 2022-02-06 16:56:50.939 [TestNG-test=Test-1] Driver - Launched the Chrome browser.
+[INFO ] 2022-02-06 16:57:00.095 [TestNG-test=Test-1] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-02-06 16:57:00.150 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-02-06 16:57:00.419 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-02-06 16:57:00.419 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-02-06 16:57:00.575 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-02-06 16:57:00.576 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-02-06 16:57:00.640 [TestNG-test=Test-2] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_002 ***********************
+[INFO ] 2022-02-06 16:57:00.647 [TestNG-test=Test-2] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-02-06 16:57:00.823 [TestNG-test=Test-2] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-02-06 16:57:00.824 [TestNG-test=Test-2] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-02-06 16:57:00.966 [TestNG-test=Test-2] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-02-06 16:57:00.967 [TestNG-test=Test-2] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-02-06 16:57:06.112 [TestNG-test=Test-1] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-02-06 16:57:06.114 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-02-06 16:57:06.269 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-02-06 16:57:06.553 [TestNG-test=Test-2] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-02-06 16:57:06.554 [TestNG-test=Test-2] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-02-06 16:57:06.710 [TestNG-test=Test-2] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-02-06 16:57:09.672 [TestNG-test=Test-1] TestListener - *********************** PASSED TEST CASE : TC_001 ***********************
+[INFO ] 2022-02-06 16:57:10.614 [TestNG-test=Test-2] TestListener - *********************** PASSED TEST CASE : TC_002 ***********************
+[INFO ] 2022-02-06 16:57:10.793 [TestNG-test=Test-1] Driver - Terminated the broswer.
+[INFO ] 2022-02-06 16:57:11.935 [TestNG-test=Test-2] Driver - Terminated the broswer.
+[INFO ] 2022-02-06 16:57:12.590 [TestNG-test=Test-1] Driver - Launched the Chrome browser.
+[INFO ] 2022-02-06 16:57:21.240 [TestNG-test=Test-1] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-02-06 16:57:21.246 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-02-06 16:57:21.455 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-02-06 16:57:21.455 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-02-06 16:57:21.612 [TestNG-test=Test-1] BasePage - Entered data into element: By.id: txtPassword and data is: admin123456
+[INFO ] 2022-02-06 16:57:21.613 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-02-06 16:57:23.517 [TestNG-test=Test-1] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-02-06 16:57:23.518 [TestNG-test=Test-1] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-02-06 16:57:33.929 [TestNG-test=Test-1] TestListener - *********************** FAILED TEST CASE : TC_001 ***********************
+[INFO ] 2022-02-06 16:57:35.007 [TestNG-test=Test-1] Driver - Terminated the broswer.
+[INFO ] 2022-02-06 16:57:35.009 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-02-06 16:57:35.010 [main] TestListener - Total Test Execution Duration is : 13 Hrs 55 mins 36 seconds
+[INFO ] 2022-02-06 17:04:49.357 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-02-06 17:04:50.520 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 17:04:50.567 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 17:04:50.637 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 17:04:54.680 [main] Driver - Launched the Edge browser.
+[INFO ] 2022-02-06 17:05:00.348 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_002 ***********************
+[INFO ] 2022-02-06 17:05:00.385 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-02-06 17:05:00.564 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-02-06 17:05:00.565 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-02-06 17:05:00.698 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-02-06 17:05:00.699 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-02-06 17:05:06.493 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-02-06 17:05:06.495 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-02-06 17:05:06.633 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-02-06 17:05:09.963 [main] TestListener - *********************** PASSED TEST CASE : TC_002 ***********************
+[INFO ] 2022-02-06 17:05:11.098 [main] Driver - Terminated the broswer.
+[INFO ] 2022-02-06 17:05:11.101 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-02-06 17:05:11.102 [main] TestListener - Total Test Execution Duration is : 6 Hrs 2 mins 44 seconds
+[INFO ] 2022-02-06 17:05:22.465 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-02-06 17:05:23.399 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 17:05:23.463 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 17:05:23.557 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 17:05:27.558 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-02-06 17:05:33.031 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-02-06 17:05:33.064 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-02-06 17:05:33.269 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-02-06 17:05:33.270 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-02-06 17:05:33.445 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-02-06 17:05:33.445 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-02-06 17:05:39.659 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-02-06 17:05:39.660 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-02-06 17:05:39.803 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-02-06 17:05:43.421 [main] TestListener - *********************** PASSED TEST CASE : TC_001 ***********************
+[INFO ] 2022-02-06 17:05:44.607 [main] Driver - Terminated the broswer.
+[INFO ] 2022-02-06 17:05:46.229 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-02-06 17:05:51.542 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-02-06 17:05:51.544 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-02-06 17:05:51.720 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-02-06 17:05:51.720 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-02-06 17:05:51.876 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123456
+[INFO ] 2022-02-06 17:05:51.876 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-02-06 17:05:53.716 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-02-06 17:05:53.716 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-02-06 17:06:03.944 [main] TestListener - *********************** FAILED TEST CASE : TC_001 ***********************
+[INFO ] 2022-02-06 17:06:05.017 [main] Driver - Terminated the broswer.
+[INFO ] 2022-02-06 17:06:05.020 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-02-06 17:06:05.022 [main] TestListener - Total Test Execution Duration is : 11 Hrs 49 mins 34 seconds
+[INFO ] 2022-02-06 17:16:40.339 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-02-06 17:16:41.356 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 17:16:41.408 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 17:16:41.485 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 17:16:46.105 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-02-06 17:16:51.244 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-02-06 17:16:51.457 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-02-06 17:16:51.743 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-02-06 17:16:51.743 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-02-06 17:16:52.077 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-02-06 17:16:52.079 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-02-06 17:16:57.729 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-02-06 17:16:57.735 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-02-06 17:16:58.153 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-02-06 17:17:01.602 [main] TestListener - *********************** PASSED TEST CASE : TC_001 ***********************
+[INFO ] 2022-02-06 17:17:02.692 [main] Driver - Terminated the broswer.
+[INFO ] 2022-02-06 17:17:06.273 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-02-06 17:17:12.628 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-02-06 17:17:12.645 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-02-06 17:17:12.843 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-02-06 17:17:12.844 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-02-06 17:17:12.996 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123456
+[INFO ] 2022-02-06 17:17:12.996 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-02-06 17:17:15.851 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-02-06 17:17:15.853 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-02-06 17:17:26.076 [main] TestListener - *********************** SKIPPED TEST CASE : TC_001 ***********************
+[INFO ] 2022-02-06 17:17:26.910 [main] Driver - Terminated the broswer.
+[INFO ] 2022-02-06 17:17:27.007 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 17:17:29.172 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-02-06 17:17:36.011 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-02-06 17:17:36.014 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-02-06 17:17:36.183 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-02-06 17:17:36.183 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-02-06 17:17:36.358 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123456
+[INFO ] 2022-02-06 17:17:36.358 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-02-06 17:17:38.750 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-02-06 17:17:38.751 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-02-06 17:17:49.217 [main] TestListener - *********************** SKIPPED TEST CASE : TC_001 ***********************
+[INFO ] 2022-02-06 17:17:49.934 [main] Driver - Terminated the broswer.
+[INFO ] 2022-02-06 17:17:49.981 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 17:17:52.051 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-02-06 17:17:58.240 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-02-06 17:17:58.242 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-02-06 17:17:58.422 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-02-06 17:17:58.423 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-02-06 17:17:58.582 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123456
+[INFO ] 2022-02-06 17:17:58.583 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-02-06 17:18:00.577 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-02-06 17:18:00.577 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-02-06 17:18:10.768 [main] TestListener - *********************** SKIPPED TEST CASE : TC_001 ***********************
+[INFO ] 2022-02-06 17:18:11.536 [main] Driver - Terminated the broswer.
+[INFO ] 2022-02-06 17:18:11.618 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 17:18:14.174 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-02-06 17:18:19.745 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-02-06 17:18:19.750 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-02-06 17:18:19.902 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-02-06 17:18:19.903 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-02-06 17:18:20.077 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123456
+[INFO ] 2022-02-06 17:18:20.077 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-02-06 17:18:22.275 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-02-06 17:18:22.276 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-02-06 17:18:32.473 [main] TestListener - *********************** FAILED TEST CASE : TC_001 ***********************
+[INFO ] 2022-02-06 17:18:33.491 [main] Driver - Terminated the broswer.
+[INFO ] 2022-02-06 17:18:33.497 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-02-06 17:18:33.498 [main] TestListener - Total Test Execution Duration is : 31 Hrs 26 mins 19 seconds
+[INFO ] 2022-02-06 17:27:56.601 [main] TestListener - 
+*********************** TEST CASE EXECUTION STARTED ***********************
+[INFO ] 2022-02-06 17:27:57.681 [main] ExcelUtils - Data read from excel successful for sheet: TEST_MANAGER
+[INFO ] 2022-02-06 17:27:57.730 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 17:27:57.826 [main] ExcelUtils - Data read from excel successful for sheet: LOGIN_TEST
+[INFO ] 2022-02-06 17:28:01.821 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-02-06 17:28:06.495 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-02-06 17:28:06.793 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtUsername
+[INFO ] 2022-02-06 17:28:07.281 [main] BasePage - Entered data into element: By.id: txtUsername and data is: Admin
+[INFO ] 2022-02-06 17:28:07.283 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: txtPassword
+[INFO ] 2022-02-06 17:28:07.491 [main] BasePage - Entered data into element: By.id: txtPassword and data is: admin123
+[INFO ] 2022-02-06 17:28:07.492 [main] WaitStrategyUtils - Inside WaitStrategy DISPLAYED of element: By.id: btnLogin
+[INFO ] 2022-02-06 17:28:15.029 [main] BasePage - Clicked on web element: By.id: btnLogin
+[INFO ] 2022-02-06 17:28:15.076 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.id: welcome
+[INFO ] 2022-02-06 17:28:15.259 [main] WaitStrategyUtils - Inside WaitStrategy CLICKABLE of element: By.xpath: //a[@href='/index.php/auth/logout']
+[INFO ] 2022-02-06 17:29:06.122 [main] TestListener - *********************** PASSED TEST CASE : TC_001 ***********************
+[INFO ] 2022-02-06 17:29:07.226 [main] Driver - Terminated the broswer.
+[INFO ] 2022-02-06 17:29:08.799 [main] Driver - Launched the Chrome browser.
+[INFO ] 2022-02-06 17:29:10.862 [main] TestListener - *********************** STARTED TEST CASE EXECUTION FOR : TC_001 ***********************
+[INFO ] 2022-02-06 17:29:10.865 [main] TestListener - *********************** SKIPPED TEST CASE : TC_001 ***********************
+[INFO ] 2022-02-06 17:29:10.872 [main] TestListener - *********************** TEST CASE EXECUTION COMPLETED ***********************
+
+[INFO ] 2022-02-06 17:29:10.872 [main] TestListener - Total Test Execution Duration is : 20 Hrs 38 mins 17 seconds

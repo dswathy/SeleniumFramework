@@ -1,0 +1,12 @@
+package com.enums;
+
+public enum PropertyFileConstants {
+
+	URL,
+	BROWSER,
+	OVERRIDEREPORTS,
+	PASSEDSTEPSCREENSHOT,
+	FAILEDSTEPSCREENSHOT,
+	RETRYFAILEDTESTS
+	;
+}
